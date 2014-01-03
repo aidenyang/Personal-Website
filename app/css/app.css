@@ -1,30 +1,107 @@
 /* app css stylesheet */
+body {
+  font-family: ff-tisa-web-pro;
+}
+.name {
+  font-family: voluta-script-pro;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.name a:hover {
+  color: black;
+}
+
+p 
+{
+  font-size: 16px;
+  text-align: center;
+  font-family: ff-tisa-web-pro, Georgia;
+  color: black;
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+.resume {
+  font-size: 12px;
+}
+
+.resume p {
+  text-align: left;
+}
+
+h1{
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  font-family: proxima-nova, Helvetica;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: solid 0.2em;
+  border-bottom-color: black;
+}
+
+h2 {
+  font-size: 14px;
+  font-style: oblique;
+  font-weight: 600;
+  margin: 0;
+}
+
 
 .menu {
+  padding-top: 0;
+  text-align: center;
   list-style: none;
-  border-bottom: 0.1em solid black;
+  font-weight: 900;
+  border-bottom: solid 0.5em;
+  border-bottom-color: black;
+  text-transform: uppercase;
   margin-bottom: 2em;
   padding: 0 0 0.5em;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  font-family: proxima-nova, Helvetica;
 }
 
 .menu:before {
-  content: "[";
+  content: "{ ";
 }
 
 .menu:after {
-  content: "]";
-}
+  content: "} " ;
+  }
 
-.menu > li {
-  display: inline;
-}
+  .menu > li {
+    display: inline;
+  }
 
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
+  .menu > li:before {
+    content: "|";
+    padding-right: 0.3em;
+  }
 
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
-}
+  .menu > li:nth-child(1):before {
+    content: "";
+    padding: 0;
+  }
+
+
+  a:visited, a:link, a:active
+  {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #888;
+  }
+
+  .oblique {
+    font-style: oblique;
+  }
+
